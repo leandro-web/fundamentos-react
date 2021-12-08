@@ -1,18 +1,10 @@
-import ReactDOM from 'react-dom'
-import React from 'react'
+import ReactDOM from 'react-dom';
+import React from 'react';
 
-import './index.css'
-
-import Primeiro from './components/basicos/Primeiro'
-import ComParametro from './components/basicos/ComParametro'
+import './index.css';
+import App from './App';
 
 ReactDOM.render(
-    <div>
-        <Primeiro></Primeiro>
-        <ComParametro
-            titulo="Segundo Componente"
-            subtitulo="Muito legal!"
-        />        
-    </div>,
+    <App />,
     document.getElementById('root')
 )
